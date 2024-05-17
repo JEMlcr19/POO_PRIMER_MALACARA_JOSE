@@ -1,0 +1,7 @@
+print("Hola para conocer tu IMC por favor llena los siguinetes campos")
+print("Pon tu peso en kilos")
+peso = float(input("¿Cuánto pesas? "))
+print("Pon tu estatura en metros")
+estatura = float(input("¿Cuánto mides?"))
+imc = round ((peso)/(estatura**2), 2)
+print("Tu Indice de Masa Corporal es: ", imc)
