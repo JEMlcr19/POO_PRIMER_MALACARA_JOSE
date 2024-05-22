@@ -14,6 +14,3 @@ while True:
     suma = num1 + num2
   
     print("La suma es:",suma)
-
-
-
